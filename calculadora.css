@@ -1,0 +1,102 @@
+/*inicio de sesion*/
+.contenido{
+    height: 300px;
+    width: 350px;
+    text-alingn: center;
+    background-color: #3943713a;
+}
+
+
+.inicio{
+
+    text-shadow: 3px 2px 3px ;
+    margin: 100px 0px 30px 0px;
+   animation-name: colorchange;
+   animation-duration: 3s;
+   animation-direction: alternate;
+     animation-iteration-count: infinite;
+      text-shadow: #5582ffe2;
+      color: #5582ffe2;
+     }
+     
+     @keyframes colorchange{
+         0%{color: #5582ffe2;}
+         100%{color: #ff0a00;}
+     }
+    
+    
+.hola{
+    color: #ff0a00;
+    margin: 20px;
+  
+    
+}
+ 
+.hola2{
+    color: #2528dc;
+    font-family: courier new;
+    line-height: 1.9;
+    
+    
+}
+ 
+ .boton{
+     
+     margin: 0px 0px 30px 0px;
+ 
+   }  
+    
+     
+ 
+ .entrada{
+     height: 40px;
+     widht: 100px;
+     margin: 20px;
+   
+ }
+
+
+
+
+
+/*codigo de la calculadora*/
+#appBg{
+    height: 420px;
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+#appBg form{
+    height: 100%;
+    widht: 100%;
+    background-color: rgb(0,0,0);
+    
+}
+#appBg input[type=numberfield] {         
+height: 25%;
+width: 98%;
+cursor: default;
+font-family: 'Roboto', sans-serif;
+background-color: rgb(0, 0, 0);
+color: white;
+text-align: right;
+font-size: 50px;
+border: 0;
+outline: none; 
+
+}
+
+#appBg input[type=button], input[type=reset]{
+width: 22%;
+cursor: pointer;
+font-family: 'Roboto', sans-serif;
+font-weight: bold;
+font-size: 26px;
+color: black;
+padding: 18px;
+margin: 3px;
+border: 0;
+border-radius:100%; 
+}
+    
