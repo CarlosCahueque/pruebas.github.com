@@ -60,43 +60,60 @@
 
 
 /*codigo de la calculadora*/
-#appBg{
-    height: 420px;
-    width: 300px;
-    border: 1px solid black;
-    border-radius: 5px;
+  #tarea {
+  width: 360px;
+  height: 290px;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+ 
 }
 
-#appBg form{
-    height: 100%;
-    widht: 100%;
-    background-color: rgb(0,0,0);
-    
-}
-#appBg input[type=numberfield] {         
-height: 25%;
-width: 98%;
-cursor: default;
-font-family: 'Roboto', sans-serif;
-background-color: rgb(0, 0, 0);
-color: white;
-text-align: right;
-font-size: 50px;
-border: 0;
-outline: none; 
-
+#appBg {
+width: 440px;
+height: 640px;
+background-color: #000000;
+padding: 20px;
+border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-#appBg input[type=button], input[type=reset]{
-width: 22%;
-cursor: pointer;
-font-family: 'Roboto', sans-serif;
-font-weight: bold;
-font-size: 26px;
-color: black;
-padding: 18px;
-margin: 3px;
-border: 0;
-border-radius:100%; 
+
+input[type="numberfield"] {
+  width: 300px;
+  height: 250px;
+  color: #11ff00;
+  background-color: #22222291;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 1.5em;
+  text-align: right;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+input[type="button"] {
+  width: 21%;
+  padding: 10px;
+  margin: 4px;
+  font-size: 1.5em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f4f4f4;
+  cursor: pointer;
+}
+
+input[type="reset"] {
+  width: 21%;
+  padding: 10px;
+  margin: 5px;
+  font-size: 1.5em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f4f4f4;
+  cursor: pointer;
 }
     
