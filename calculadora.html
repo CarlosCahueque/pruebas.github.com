@@ -7,10 +7,15 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
 </head>
-<body>
+<body id="tarea">
     <div id="appBg">
+        <br>
         <form name="calculadora">
             <input type="numberfield" name="ans" autocomplete="off" rel="stylesheet">
+            <br>
+            <br>
+            <br>
+           
               
      <input type="button" value="7" onclick="document.calculadora.ans.value+='7'">
      <input type="button" value="8" onclick="document.calculadora.ans.value+='8'">
@@ -28,8 +33,9 @@
      <input type="button" value="×" onclick="document.calculadora.ans.value+='*'">
      <br>
      <input type="button" value="0" onclick="document.calculadora.ans.value+='0'">
-     <input type="reset" value="C">
+     
      <input type="button" value="=" onclick="document.calculadora.ans.value=eval(document.calculadora.ans.value)">
+     <input type="reset" value="C">
      <input type="button" value="/" onclick="document.calculadora.ans.value+='/'">
      
      
